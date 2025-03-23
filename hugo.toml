@@ -1,3 +1,4 @@
 baseURL = 'https://tbawor.sh/'
 languageCode = 'en-us'
 title = 'Tomasz Bawor homepage'
+theme = 'terminal'
