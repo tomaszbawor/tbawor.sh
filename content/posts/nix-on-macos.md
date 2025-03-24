@@ -1,13 +1,13 @@
 +++
-title = "Nix-Darwin on MacOs with zscaler"
-date = "2025-03-25"
-#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
+title = "Nix Darwin on MacOs with zscaler"
+datet = "2025-03-25 3:04:06 PM MST"
 author = "Tomasz Bawor"
-authorTwitter = "" #do not include @
+authorTwitter = "tomasz_bawor" #do not include @
 tags = ["nix", "macbook", "zscaler", "nix-darwin", "ssl", "certificates"]
 description = "How to install nix package manager on macbook with zscaler"
 showFullContent = false
 +++
+
 Once upon a time I have tried to install nix package manager into my work macbook. I have been looking for the same terminal setup for all of my machines that can be easly stored in one place. 
 
 This however was not so easy since my work macbook has preinstaled zscaler wchich rips open the TLS connections and replaces the certificates with company accepted one. 
