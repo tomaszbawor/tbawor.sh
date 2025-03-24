@@ -10,7 +10,7 @@ showFullContent = false
 
 Once upon a time I have tried to install nix package manager into my work macbook. I have been looking for the same terminal setup for all of my machines that can be easly stored in one place. 
 
-This however was not so easy since my work macbook has preinstaled zscaler wchich rips open the TLS connections and replaces the certificates with company accepted one. 
+This however was not so easy since my work macbook has preinstaled zscaler which rips open the TLS connections and replaces the certificates with company accepted one. 
 
 I have spend to many hours that I would like to admit on searching why my nix commands are not working and I have errors with SSL certificates. Since I have set up my computer many years ago the zscaler did not gave issues and I forgot it exists. 
 
