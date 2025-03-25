@@ -8,15 +8,15 @@ description = "How to install nix package manager on macbook with zscaler"
 showFullContent = false
 +++
 
-Once upon a time I have tried to install nix package manager into my work macbook. I have been looking for the same terminal setup for all of my machines that can be easly stored in one place. 
+Once upon a time I have tried to install nix package manager into my work macbook. I have been looking for the same terminal setup for all of my machines that can be easily stored in one place. 
 
-This however was not so easy since my work macbook has preinstaled zscaler which rips open the TLS connections and replaces the certificates with company accepted one. 
+This however was not so easy since my work macbook has pre installed zscaler which rips open the TLS connections and replaces the certificates with company accepted one. 
 
 I have spend to many hours that I would like to admit on searching why my nix commands are not working and I have errors with SSL certificates. Since I have set up my computer many years ago the zscaler did not gave issues and I forgot it exists. 
 
 Here is the instruction for people struggling with the same problem, or my colleagues if I ever convince them to use Nix. 
 
-## Step 1: Export Trusted Certificates from macOS Keychain
+## Step 1: Export Trusted Certificates from MacOS Keychain
 
 Use the `security` tool to export certificates from the system keychains:
 
@@ -88,7 +88,7 @@ environment.variables = {
 
 ## References
 
-- [Discourse Post on SSL Errors with Nix on macOS](https://discourse.nixos.org/t/ssl-ca-cert-error-on-macos/31171/6)
+- [Discourse Post on SSL Errors with Nix on MacOS](https://discourse.nixos.org/t/ssl-ca-cert-error-on-macos/31171/6)
 - [My Nix Setup](https://github.com/tomaszbawor/nix-configurations)
 
 ---
